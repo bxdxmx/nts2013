@@ -40,8 +40,7 @@ public class TestFibonacci {
 	
 	@Test
 	public void testFibonacci() {
-		System.out.println("input:" + String.valueOf(input) + ",output:" + String.valueOf(output));
-		fail("Not yet implemented");
+		Fibonacci obj = new Fibonacci();
+		assertEquals(input, obj.getFibonacci(output));
 	}
-
 }
